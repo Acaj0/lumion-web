@@ -11,7 +11,6 @@ export default function home() {
           prefetch={false}
         >
           <Image
-            className=""
             src={"/4.png"}
             quality={100}
             unoptimized={true}
