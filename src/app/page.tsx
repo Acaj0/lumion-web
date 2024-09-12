@@ -40,7 +40,7 @@ export default function home() {
         </nav>
       </header>
       <main className="flex-1">
-        <section className="w-full mt-10 py-12 md:py-24 lg:py-32">
+        <section className="w-full mt-10 py-12 md:py-24 lg:py-32 h-[700px] items-center flex ">
           <div className="container px-4 md:px-6 bg backdrop-blur-md">
             <div className="flex gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] items-center justify-center">
               <div className="flex flex-col justify-center space-y-4">
@@ -72,12 +72,12 @@ export default function home() {
         <section className="w-full py-10 md:py-10 lg:py-10 bg-muted">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
+              <div className="space-y-5">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   O que nós podemos fazer por você
                 </h2>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Na Lumen Desenvolvimento Web, ajudamos empresas a se
+                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify	">
+                  Na Lumen Desenvolvimento Web, ajudamos você a se
                   destacarem no ambiente digital por meio de estratégias
                   eficazes de SEO (Search Engine Optimization). Com a otimização
                   adequada de sites e conteúdo, oferecemos às empresas a
@@ -145,7 +145,7 @@ export default function home() {
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-muted-foreground">
-          &copy; 2024 Acme Inc. All rights reserved.
+          &copy; 2024 Lumen Web. All rights reserved.
         </p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link
