@@ -284,7 +284,7 @@ export default function home() {
                     <div className="flex w-full justify-between">
                       <div>
                         <h4 className="text-lg font-bold">Guilherme Zafalon</h4>
-                        <p className="text-black/45 text-sm">21/08/2024</p>{" "}
+                        <p className="text-black/45 text-sm">21/08/2024</p>
                       </div>
                       <img
                         width={50}
@@ -324,7 +324,7 @@ export default function home() {
                     <div className="flex w-full justify-between">
                       <div>
                         <h4 className="text-lg font-bold">Ramon Meneghetti</h4>
-                        <p className="text-black/45 text-sm">08/03/2024</p>{" "}
+                        <p className="text-black/45 text-sm">08/03/2024</p>
                       </div>
                       <img
                         width={50}
