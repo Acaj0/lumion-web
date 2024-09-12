@@ -303,11 +303,11 @@ export default function home() {
                     alt="stars"
                   />
                   <p className="mt-4 text-muted-foreground">
-                    "Trabalhar com a Lumen Desenvolvimento Web foi uma
+                    Trabalhar com a Lumen Desenvolvimento Web foi uma
                     experiência fantástica, e o Antonio se destacou como um
                     verdadeiro profissional ao longo de todo o processo,
                     Recomendamos a Lumen sem reservas para qualquer projeto de
-                    desenvolvimento web. "
+                    desenvolvimento web.
                   </p>
                 </div>
               </div>
@@ -343,11 +343,11 @@ export default function home() {
                     alt="stars"
                   />
                   <p className="mt-4 text-muted-foreground">
-                    "A experiência com a Lumen Desenvolvimento Web foi
+                    A experiência com a Lumen Desenvolvimento Web foi
                     excepcional. Desde o início, a equipe demonstrou um profundo
                     entendimento das nossas necessidades e trouxe soluções
                     criativas e eficientes para o desenvolvimento do nosso
-                    site.."
+                    site.
                   </p>
                 </div>
               </div>
