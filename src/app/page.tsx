@@ -258,10 +258,7 @@ export default function home() {
           </div>
         </section>
 
-        <section
-          id="testimonials"
-          className="w-full py-12 md:py-24 lg:py-32 bg-white"
-        >
+        <section id="4" className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -270,47 +267,90 @@ export default function home() {
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Ouça nossos clientes satisfeitos e descubra como os ajudamos a
-                  alcançar seus objetivos online..
+                  alcançar seus objetivos online.
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
-                <blockquote>
-                  <p className="text-xl font-medium text-muted-foreground">
-                    Trabalhar com a Lumen Desenvolvimento Web foi uma
-                    experiência fantástica, Antonio demonstrou um conhecimento
-                    profundo e uma abordagem detalhista que foram fundamentais
-                    para o sucesso do nosso projeto. Sua capacidade de entender
-                    nossas necessidades e transformar ideias em soluções
-                    práticas foi impressionante. A dedicação e o compromisso
-                    dele garantiram que o desenvolvimento do nosso site não só
-                    atendesse, mas superasse nossas expectativas. Recomendamos a
-                    Lumen sem reservas para qualquer projeto de desenvolvimento
-                    web."
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <div className="flex items-start gap-2">
+                    <div className="w-20 h-20 mr-4">
+                      <img
+                        src="/zafa.png"
+                        className="rounded-full"
+                        alt="Foto Guilherme Zafalon"
+                      />
+                    </div>
+                    <div className="flex w-full justify-between">
+                      <div>
+                        <h4 className="text-lg font-bold">Guilherme Zafalon</h4>
+                        <p className="text-black/45 text-sm">21/08/2024</p>{" "}
+                      </div>
+                      <img
+                        width={50}
+                        height={20}
+                        src="/google.png"
+                        className="mt-1"
+                        alt="stars"
+                      />
+                    </div>
+                  </div>
+                  <img
+                    width={200}
+                    height={30}
+                    src="/star.png"
+                    className="mt-1"
+                    alt="stars"
+                  />
+                  <p className="mt-4 text-muted-foreground">
+                    "Trabalhar com a Lumen Desenvolvimento Web foi uma
+                    experiência fantástica, e o Antonio se destacou como um
+                    verdadeiro profissional ao longo de todo o processo,
+                    Recomendamos a Lumen sem reservas para qualquer projeto de
+                    desenvolvimento web. "
                   </p>
-                  <cite className="mt-4 block text-lg font-bold not-italic">
-                    - Guilherme Zafalon, Duzzi Totaline Refrigeração.
-                  </cite>
-                </blockquote>
+                </div>
               </div>
               <div className="flex flex-col justify-center space-y-4">
-                <blockquote>
-                  <p className="text-xl font-medium text-muted-foreground">
+                <div className="bg-white rounded-lg shadow-md p-6">
+                  <div className="flex items-start">
+                    <div className="w-20 h-20 mr-4">
+                      <img
+                        src="/ramon.png"
+                        className="rounded-full"
+                        alt="Foto Ramon"
+                      />
+                    </div>
+                    <div className="flex w-full justify-between">
+                      <div>
+                        <h4 className="text-lg font-bold">Ramon Meneghetti</h4>
+                        <p className="text-black/45 text-sm">08/03/2024</p>{" "}
+                      </div>
+                      <img
+                        width={50}
+                        height={20}
+                        src="/google.png"
+                        className="mt-1"
+                        alt="stars"
+                      />
+                    </div>
+                  </div>
+                  <img
+                    width={200}
+                    height={30}
+                    src="/star.png"
+                    className="mt-1"
+                    alt="stars"
+                  />
+                  <p className="mt-4 text-muted-foreground">
                     "A experiência com a Lumen Desenvolvimento Web foi
                     excepcional. Desde o início, a equipe demonstrou um profundo
                     entendimento das nossas necessidades e trouxe soluções
-                    criativas e eficientes para o desenvolvimento do nosso site.
-                    A comunicação foi clara e o suporte, impecável. O resultado
-                    final superou nossas expectativas, proporcionando um site
-                    moderno e funcional que atende perfeitamente às nossas
-                    demandas. Recomendo fortemente os serviços da Lumen para
-                    quem busca qualidade e profissionalismo."
+                    criativas e eficientes para o desenvolvimento do nosso
+                    site.."
                   </p>
-                  <cite className="mt-4 block text-lg font-bold not-italic">
-                    - Ramon Meneghetti, Vocalista da Banda Digito Zero.
-                  </cite>
-                </blockquote>
+                </div>
               </div>
             </div>
           </div>
