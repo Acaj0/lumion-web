@@ -1,4 +1,3 @@
-import { Video } from "@/components/ui/video";
 import Image from "next/image";
 import Link from "next/link";
 
