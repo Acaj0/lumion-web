@@ -29,7 +29,7 @@ export default function home() {
             Funcionalidades
           </Link>
           <Link
-            href="#"
+            href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
             className="md:flex hidden text-lg font-medium hover:underline underline-offset-4"
             prefetch={false}
           >
@@ -58,7 +58,7 @@ export default function home() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
-                    href="#"
+                    href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
                     className="gap-2 drop-shadow-lg inline-flex h-10 items-center justify-center rounded-md bg-black/90 px-8 text-sm font-medium text-primary-foreground shadow-md transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
@@ -164,7 +164,7 @@ export default function home() {
                 </div>
               </div>
               <Link
-                href="#"
+                href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
                 className="shadow-sky-200 gap-2 drop-shadow-lg inline-flex h-10 items-center justify-center rounded-md bg-sky-700 px-8 text-sm font-medium text-primary-foreground shadow-md transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 prefetch={false}
               >
@@ -242,7 +242,7 @@ export default function home() {
                 </ul>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
-                    href="#"
+                    href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
                     className="gap-2 drop-shadow-lg inline-flex h-10 items-center justify-center rounded-md bg-sky-700 px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
