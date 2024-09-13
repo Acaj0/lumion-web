@@ -45,8 +45,8 @@ export default function home() {
           <div className="container px-4 md:px-6 bg rounded">
             <div className="flex gap-6 flex-col md:flex-row lg:gap-12 items-center justify-center">
               <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2 ">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                <div className="space-y-2 mt-32 md:mt-0">
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none ">
                     Criação de Sites
                   </h1>
                   <p className="max-w-[600px] text-white md:text-xl">
@@ -74,7 +74,12 @@ export default function home() {
                   </Link>
                 </div>
               </div>
-              <img src="/pcs.png" width="300" height="300" alt="Hero" />
+              <div className="flex flex-col items-center md:hidden">
+                <img src="/pcs.png" width="300" height="300" alt="Hero" />
+              </div>
+              <div className="md:flex flex-col items-center hidden">
+                <img src="/pcs.png" width="500" height="500" alt="Hero" />
+              </div>
             </div>
           </div>
         </section>
@@ -346,8 +351,7 @@ export default function home() {
                     A experiência com a Lumen Desenvolvimento Web foi
                     excepcional. Desde o início, a equipe demonstrou um profundo
                     entendimento das nossas necessidades e trouxe soluções
-                    criativas e eficientes para o desenvolvimento do nosso
-                    site.
+                    criativas e eficientes para o desenvolvimento do nosso site.
                   </p>
                 </div>
               </div>
