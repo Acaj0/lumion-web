@@ -294,13 +294,15 @@ export default function home() {
                     <div className="w-20 h-20 mr-4">
                       <img
                         src="/zafa.png"
+                        height={100}
+                        width={100}
                         className="rounded-full"
                         alt="Foto Guilherme Zafalon"
                       />
                     </div>
                     <div className="flex w-full justify-between">
                       <div>
-                        <h4 className="text-lg font-bold">Guilherme Zafalon</h4>
+                        <p className="text-lg font-bold">Guilherme Zafalon</p>
                         <p className="text-black/45 text-sm">21/08/2024</p>
                       </div>
                       <img
@@ -334,13 +336,15 @@ export default function home() {
                     <div className="w-20 h-20 mr-4">
                       <img
                         src="/ramon.png"
+                        height={100}
+                        width={100}
                         className="rounded-full"
                         alt="Foto Ramon"
                       />
                     </div>
                     <div className="flex w-full justify-between">
                       <div>
-                        <h4 className="text-lg font-bold">Ramon Meneghetti</h4>
+                        <p className="text-lg font-bold">Ramon Meneghetti</p>
                         <p className="text-black/45 text-sm">08/03/2024</p>
                       </div>
                       <img
