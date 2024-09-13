@@ -75,10 +75,10 @@ export default function home() {
                 </div>
               </div>
               <div className="flex flex-col items-center md:hidden">
-                <img src="/pcs.png" width="300" height="300" alt="Hero" />
+                <Image src="/pcs.png" width="300" height="300" alt="Hero" />
               </div>
               <div className="md:flex flex-col items-center hidden">
-                <img src="/pcs.png" width="500" height="500" alt="Hero" />
+                <Image src="/pcs.png" width="500" height="500" alt="Hero" />
               </div>
             </div>
           </div>
@@ -202,7 +202,7 @@ export default function home() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <img
+              <Image
                 src="/sitesparado.png"
                 width="550"
                 height="310"
@@ -292,7 +292,7 @@ export default function home() {
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <div className="flex items-start gap-2">
                     <div className="w-20 h-20 mr-4">
-                      <img
+                      <Image
                         src="/zafa.png"
                         height={100}
                         width={100}
@@ -305,7 +305,7 @@ export default function home() {
                         <p className="text-lg font-bold">Guilherme Zafalon</p>
                         <p className="text-black/45 text-sm">21/08/2024</p>
                       </div>
-                      <img
+                      <Image
                         width={50}
                         height={20}
                         src="/google.png"
@@ -314,7 +314,7 @@ export default function home() {
                       />
                     </div>
                   </div>
-                  <img
+                  <Image
                     width={200}
                     height={30}
                     src="/star.png"
@@ -334,7 +334,7 @@ export default function home() {
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <div className="flex items-start">
                     <div className="w-20 h-20 mr-4">
-                      <img
+                      <Image
                         src="/ramon.png"
                         height={100}
                         width={100}
@@ -347,7 +347,7 @@ export default function home() {
                         <p className="text-lg font-bold">Ramon Meneghetti</p>
                         <p className="text-black/45 text-sm">08/03/2024</p>
                       </div>
-                      <img
+                      <Image
                         width={50}
                         height={20}
                         src="/google.png"
@@ -356,7 +356,7 @@ export default function home() {
                       />
                     </div>
                   </div>
-                  <img
+                  <Image
                     width={200}
                     height={30}
                     src="/star.png"
