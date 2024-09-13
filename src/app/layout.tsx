@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Lumen Desenvolvimento Web - Soluções Inovadoras em Cuiabá",
-  description: "Nossa empresa oferece soluções personalizadas em desenvolvimento de sites, sistemas e aplicações. Impulsionamos negócios com inovação, eficiência e segurança.",
+  description: "Nossa empresa oferece soluções personalizadas em criação e desenvolvimento de sites. Impulsionamos negócios com inovação, eficiência e segurança.",
 };
 
 export default function RootLayout({
