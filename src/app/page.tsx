@@ -62,7 +62,7 @@ export default function home() {
                     <Link
                       target="_blank"
                       href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
-                      className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100 gap-2 drop-shadow-lg inline-flex h-10 items-center justify-center rounded-md bg-black/90 px-8 text-sm font-medium text-primary-foreground shadow-md transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                      className=" ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100 gap-2 drop-shadow-lg inline-flex h-10 items-center justify-center rounded-md bg-black/90 px-8 text-sm font-medium text-primary-foreground shadow-md transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                       prefetch={false}
                     >
                       <svg
@@ -81,9 +81,10 @@ export default function home() {
                       target="_blank"
                       prefetch={false}
                       href="https://www.instagram.com/lumen.web/"
-                      className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100"
+                      className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100 "
                     >
                       <svg
+                        className="hover:fill-primary/90"
                         width={38}
                         fill="black"
                         xmlns="http://www.w3.org/2000/svg"
@@ -104,6 +105,7 @@ export default function home() {
                       className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100"
                     >
                       <svg
+                        className="hover:fill-primary/90"
                         width={38}
                         fill="black"
                         xmlns="http://www.w3.org/2000/svg"
