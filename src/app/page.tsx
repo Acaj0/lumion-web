@@ -328,7 +328,7 @@ export default function home() {
                           src="/foto.png"
                           height={100}
                           width={100}
-                          className="rounded-full"
+                          className=""
                           alt="Foto Guilherme Zafalon"
                         />
                       </div>
