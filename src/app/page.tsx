@@ -1,44 +1,14 @@
+import NavBar from "@/components/NavBar";
+import FloatingContactButtons from "@/components/ui/FloatingContactButtons";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      <header className="px-4 lg:px-6 h-20 flex items-center p-1">
-        <Link
-          href="/"
-          className="flex items-center justify-center"
-          prefetch={false}
-        >
-          <Image
-            src={"/4.png"}
-            quality={100}
-            unoptimized={true}
-            height={200}
-            width={200}
-            alt="logo da lumen"
-          />
-          <span className="sr-only">Home</span>
-        </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link
-            href="#3"
-            className="text-lg font-medium hover:underline underline-offset-4"
-            prefetch={false}
-          >
-            Funcionalidades
-          </Link>
-          <Link
-            target="_blank"
-            href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
-            className="md:flex hidden text-lg font-medium hover:underline underline-offset-4"
-            prefetch={false}
-          >
-            Contato
-          </Link>
-        </nav>
-      </header>
+      <NavBar></NavBar>
       <main className="flex-1">
+        <FloatingContactButtons></FloatingContactButtons>
         <section
           id="1"
           className="w-full py-12 md:py-24 lg:py-32 h-[700px] md:bg-[url('/fundo.png')] bg-[url('/cel.png')] bg-cover bg-scroll bg-no-repeat items-center flex "
@@ -351,85 +321,87 @@ export default function home() {
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <div className="flex items-start gap-2">
-                    <div className="w-20 h-20 mr-4">
-                      <Image
-                        src="/zafa.png"
-                        height={100}
-                        width={100}
-                        className="rounded-full"
-                        alt="Foto Guilherme Zafalon"
-                      />
-                    </div>
-                    <div className="flex w-full justify-between">
-                      <div>
-                        <p className="text-lg font-bold">Guilherme Zafalon</p>
-                        <p className="text-black/45 text-sm">21/08/2024</p>
+                  <a target="_blank" href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,">
+                    <div className="flex items-start gap-2">
+                      <div className="w-20 h-20 mr-4">
+                        <Image
+                          src="/zafa.png"
+                          height={100}
+                          width={100}
+                          className="rounded-full"
+                          alt="Foto Guilherme Zafalon"
+                        />
                       </div>
-                      <Image
-                        width={50}
-                        height={20}
-                        src="/google.png"
-                        className="mt-1"
-                        alt="stars"
-                      />
+                      <div className="flex w-full justify-between">
+                        <div>
+                          <p className="text-lg font-bold">Guilherme Zafalon</p>
+                          <p className="text-black/45 text-sm">21/08/2024</p>
+                        </div>
+                        <Image
+                          width={50}
+                          height={20}
+                          src="/google.png"
+                          className="mt-1"
+                          alt="stars"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <Image
-                    width={200}
-                    height={30}
-                    src="/star.png"
-                    className="mt-1"
-                    alt="stars"
-                  />
-                  <p className="mt-4 text-muted-foreground">
-                    Trabalhar com a Lumen Desenvolvimento Web foi uma
-                    experiência fantástica, e o Antonio se destacou como um
-                    verdadeiro profissional ao longo de todo o processo,
-                    Recomendamos a Lumen sem reservas para qualquer projeto de
-                    desenvolvimento web.
-                  </p>
+                    <Image
+                      width={200}
+                      height={30}
+                      src="/star.png"
+                      className="mt-1"
+                      alt="stars"
+                    />
+                    <p className="mt-4 text-muted-foreground">
+                      Eu fiz meu site de portfólio com eles, o processo foi
+                      fácil pra caramba e sempre que eu preciso atualizar o site
+                      e colocar mais itens eles me atendem muito bem.
+                    </p>
+                  </a>
                 </div>
               </div>
               <div className="flex flex-col justify-center space-y-4">
                 <div className="bg-white rounded-lg shadow-md p-6">
-                  <div className="flex items-start">
-                    <div className="w-20 h-20 mr-4">
-                      <Image
-                        src="/ramon.png"
-                        height={100}
-                        width={100}
-                        className="rounded-full"
-                        alt="Foto Ramon"
-                      />
-                    </div>
-                    <div className="flex w-full justify-between">
-                      <div>
-                        <p className="text-lg font-bold">Ramon Meneghetti</p>
-                        <p className="text-black/45 text-sm">08/03/2024</p>
+                  <a target="_blank" href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,">
+                    <div className="flex items-start">
+                      <div className="w-20 h-20 mr-4">
+                        <Image
+                          src="/ramon.png"
+                          height={100}
+                          width={100}
+                          className="rounded-full"
+                          alt="Foto Ramon"
+                        />
                       </div>
-                      <Image
-                        width={50}
-                        height={20}
-                        src="/google.png"
-                        className="mt-1"
-                        alt="stars"
-                      />
+                      <div className="flex w-full justify-between">
+                        <div>
+                          <p className="text-lg font-bold">Ramon Meneghetti</p>
+                          <p className="text-black/45 text-sm">08/03/2024</p>
+                        </div>
+                        <Image
+                          width={50}
+                          height={20}
+                          src="/google.png"
+                          className="mt-1"
+                          alt="stars"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <Image
-                    width={200}
-                    height={30}
-                    src="/star.png"
-                    className="mt-1"
-                    alt="stars"
-                  />
-                  <p className="mt-4 text-muted-foreground">
-                    A experiência com a Lumen Desenvolvimento Web foi
-                    excepcional. Desde o início, a equipe demonstrou um profundo
-                    entendimento das nossas necessidades e trouxe soluções
-                    criativas e eficientes para o desenvolvimento do nosso site.
-                  </p>
+                    <Image
+                      width={200}
+                      height={30}
+                      src="/star.png"
+                      className="mt-1"
+                      alt="stars"
+                    />
+                    <p className="mt-4 text-muted-foreground">
+                      Fiz o site da minha banda com a Lumen, equipe sempre
+                      disposta a atender as demandas e os ajustes que
+                      precisavamos, indico para todos que precisam divulgar mais
+                      a sua marca na internet.
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>

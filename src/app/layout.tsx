@@ -15,7 +15,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Lumen Desenvolvimento Web - Soluções Inovadoras em Cuiabá",
-  description: "Nossa empresa oferece soluções personalizadas em criação e desenvolvimento de sites. Impulsionamos negócios com inovação, eficiência e segurança.",
+  description:
+    "Nossa empresa oferece soluções personalizadas em criação e desenvolvimento de sites. Impulsionamos negócios com inovação, eficiência e segurança.",
 };
 
 export default function RootLayout({
@@ -27,8 +28,9 @@ export default function RootLayout({
     <html lang="pt">
       <head>
         {" "}
-        <link rel="icon" type="image/png" href="/2.png" sizes="32x32"/>
+        <link rel="icon" type="image/png" href="/2.png" sizes="32x32" />
       </head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
