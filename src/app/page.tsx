@@ -31,7 +31,7 @@ export default function home() {
                   <div className="flex flex-col gap-2 min-[400px]:flex-row">
                     <Link
                       target="_blank"
-                      href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
+                      href="https://api.whatsapp.com/send?phone=5565981227631&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
                       className=" ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100 gap-2 drop-shadow-lg inline-flex h-10 items-center justify-center rounded-md bg-black/90 px-8 text-sm font-medium text-primary-foreground shadow-md transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                       prefetch={false}
                     >
@@ -198,7 +198,7 @@ export default function home() {
               </div>
               <Link
                 target="_blank"
-                href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
+                href="https://api.whatsapp.com/send?phone=5565981227631&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
                 className="shadow-sky-200 gap-2 drop-shadow-lg inline-flex h-10 items-center justify-center rounded-md bg-sky-700 px-8 text-sm font-medium text-primary-foreground shadow-md transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                 prefetch={false}
               >
@@ -284,7 +284,7 @@ export default function home() {
                 </ul>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link
-                    href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
+                    href="https://api.whatsapp.com/send?phone=5565981227631&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
                     target="_blank"
                     className="gap-2 drop-shadow-lg inline-flex h-10 items-center justify-center rounded-md bg-sky-700 px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
@@ -325,7 +325,7 @@ export default function home() {
                     <div className="flex items-start gap-2">
                       <div className="w-20 h-20 mr-4">
                         <Image
-                          src="/zafa.png"
+                          src="/foto.png"
                           height={100}
                           width={100}
                           className="rounded-full"
