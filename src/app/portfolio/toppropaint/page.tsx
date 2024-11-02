@@ -115,20 +115,20 @@ export default function LumenWebProject() {
           </div>
 
           <div className="space-y-10 mt-6 lg:mt-0">
-            <img
+            <img 
               src="/toppromain.jpg"
               alt="top pto Screenshot"
-              className="w-full rounded-lg shadow-lg"
+              className="w-full rounded-lg shadow-lg outline outline-1"
             />
             <img
               src="/interior.jpg"
               alt="top pro service page"
-              className="w-full rounded-lg shadow-md"
+              className="w-full rounded-lg shadow-md outline outline-1"
             />
             <img
               src="/guarantee.jpg"
               alt="top pro guarantee page"
-              className="w-full rounded-lg shadow-md"
+              className="w-full rounded-lg shadow-md outline outline-1"
             />
             <div className="grid grid-cols-2 gap-4"></div>
           </div>

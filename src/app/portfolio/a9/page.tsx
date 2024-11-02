@@ -115,17 +115,17 @@ export default function LumenWebProject() {
             <img
               src="/a9full.jpg"
               alt="a9 Screenshot"
-              className="w-full rounded-lg shadow-lg"
+              className="w-full rounded-lg shadow-lg outline outline-1"
             />
             <img
               src="/a9blog.png"
               alt="a9 blog"
-              className="w-full rounded-lg shadow-md"
+              className="w-full rounded-lg shadow-md outline outline-1"
             />
             <img
               src="/a9mob.jpg"
               alt="a9 Screenshot"
-              className="w-full rounded-lg shadow-lg"
+              className="w-full rounded-lg shadow-lg outline outline-1"
             />
             <div className="grid grid-cols-2 gap-4"></div>
           </div>
