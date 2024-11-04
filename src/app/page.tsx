@@ -1,4 +1,5 @@
 import NavBar from "@/components/NavBar";
+import Scene from "@/components/Scene";
 import FloatingContactButtons from "@/components/ui/FloatingContactButtons";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,7 +12,7 @@ export default function home() {
         <FloatingContactButtons></FloatingContactButtons>
         <section
           id="1"
-          className="w-full py-12 md:py-24 lg:py-32 h-[700px] md:bg-[url('/fundo.png')] bg-[url('/cel.png')] bg-cover bg-scroll bg-no-repeat items-center flex "
+          className="w-full py-12 md:py-24 lg:py-32 h-[700px] md:bg-[url('/fundo.png')] bg-[url('/cel.png')] bg-center md:bg-left-top bg-cover bg-scroll bg-no-repeat items-center flex "
         >
           <div className="container px-4 md:px-6 bg rounded">
             <div className="flex gap-6 flex-col md:flex-row lg:gap-12 items-center justify-center">
@@ -103,12 +104,7 @@ export default function home() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-center md:hidden">
-                <Image src="/pcs.png" width="300" height="300" alt="Hero" />
-              </div>
-              <div className="md:flex flex-col items-center hidden">
-                <Image src="/pcs.png" width="500" height="500" alt="Hero" />
-              </div>
+              <Scene></Scene>
             </div>
           </div>
         </section>
