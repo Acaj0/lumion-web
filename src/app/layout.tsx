@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="pt">
       <head>
         {" "}
-        <link rel="icon" type="image/png" href="/2.png" sizes="32x32" />
+        <link rel="icon" type="3/png" href="/2.png" sizes="32x32" />
       </head>
 
       <body
