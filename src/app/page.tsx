@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export default function home() {
   return (
-    <div className="flex flex-col min-h-[100dvh]">
+    <div className="flex flex-col min-h-[100dvh] overflow-clip">
       <NavBar></NavBar>
-      <main className="flex-1">
+      <main className="flex-1 ">
         <FloatingContactButtons></FloatingContactButtons>
         <section
           id="1"
