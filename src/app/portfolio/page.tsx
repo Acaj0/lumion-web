@@ -24,6 +24,13 @@ const projects = [
     description: "Landing page para a empresa americana de pintura.",
     image: "/toppromain.png",
     link: "/portfolio/toppropaint"
+  },
+  {
+    id: 4,
+    title: "Duzzi Totaline Refrigeração",
+    description: "Landing page para a empresa de Refrigeração do Mato-Grosso.",
+    image: "/duzzimain.png",
+    link: "/portfolio/duzzi"
   }
 ]
 
