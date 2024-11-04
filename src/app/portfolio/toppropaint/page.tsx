@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import NavBar from "@/components/NavBar";
 
 export default function LumenWebProject() {
   const [isSticky, setIsSticky] = useState(false);
@@ -24,16 +25,7 @@ export default function LumenWebProject() {
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="py-6 px-4 border-b">
-        <div className="container mx-auto">
-          <Link href="/portfolio" passHref>
-            <Button variant="ghost" className="flex items-center">
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              Voltar ao Portfólio
-            </Button>
-          </Link>
-        </div>
-      </header>
+      <NavBar></NavBar>
 
       <main className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -111,11 +103,17 @@ export default function LumenWebProject() {
                   Solicite um orçamento{" "}
                 </Link>
               </Button>
+              <Link href="/portfolio" passHref>
+                <Button variant="ghost" className="flex items-center mt-10">
+                  <ArrowLeft className="mr-2 h-4 w-4" />
+                  Voltar ao Portfólio
+                </Button>
+              </Link>
             </div>
           </div>
 
           <div className="space-y-10 mt-6 lg:mt-0">
-            <img 
+            <img
               src="/toppromain.jpg"
               alt="top pto Screenshot"
               className="w-full rounded-lg shadow-lg outline outline-1"
