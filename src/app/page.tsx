@@ -318,10 +318,13 @@ export default function home() {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
+            <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <a target="_blank" href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,">
+                <div className="bg-white rounded-lg shadow-md min-h-80 p-6">
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,"
+                  >
                     <div className="flex items-start gap-2">
                       <div className="w-20 h-20 mr-4">
                         <Image
@@ -362,8 +365,11 @@ export default function home() {
                 </div>
               </div>
               <div className="flex flex-col justify-center space-y-4">
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <a target="_blank" href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,">
+                <div className="bg-white rounded-lg min-h-80 shadow-md p-6">
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,"
+                  >
                     <div className="flex items-start">
                       <div className="w-20 h-20 mr-4">
                         <Image
@@ -400,6 +406,55 @@ export default function home() {
                       disposta a atender as demandas e os ajustes que
                       precisavamos, indico para todos que precisam divulgar mais
                       a sua marca na internet.
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center space-y-4">
+                <div className="bg-white rounded-lg min-h-80 shadow-md p-6">
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,"
+                  >
+                    <div className="flex items-start gap-2">
+                      <div className="w-20 h-20 mr-4">
+                        <Image
+                          src="/aki.png"
+                          height={100}
+                          width={100}
+                          className=""
+                          alt="Foto Akila Kawato"
+                        />
+                      </div>
+                      <div className="flex w-full justify-between">
+                        <div>
+                          <p className="text-lg font-bold">Akila Kawato</p>
+                          <p className="text-black/45 text-sm">03/11/2024</p>
+                        </div>
+                        <Image
+                          width={50}
+                          height={20}
+                          src="/google.png"
+                          className="mt-1"
+                          alt="stars"
+                        />
+                      </div>
+                    </div>
+                    <Image
+                      width={200}
+                      height={30}
+                      src="/star.png"
+                      className="mt-1"
+                      alt="stars"
+                    />
+                    <p className="mt-4 text-muted-foreground">
+                      Desenvolvi o site da minha empresa com a Lumen, e a
+                      experiência foi excelente! A equipe é super atenciosa,
+                      entenderam exatamente o que eu precisava e entregaram um
+                      resultado incrível. Sempre que preciso fazer ajustes ou
+                      atualizações, o atendimento é rápido e eficiente.
+                      Recomendo para quem quer um site profissional e um suporte
+                      de qualidade!!
                     </p>
                   </a>
                 </div>
