@@ -17,7 +17,7 @@ export default function home() {
           <div className="container px-4 md:px-6 bg rounded">
             <div className="flex gap-6 flex-col md:flex-row lg:gap-12 items-center justify-center">
               <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2 mt-32 md:mt-0">
+                <div className="space-y-2 mt-32 ml-12 md:mt-0">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none ">
                     Criação de Sites
                   </h1>
@@ -29,7 +29,7 @@ export default function home() {
                   </p>
                 </div>
                 <div className="flex flex-row gap-10">
-                  <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                  <div className="flex flex-col gap-2 ml-12 min-[400px]:flex-row">
                     <Link
                       target="_blank"
                       href="https://api.whatsapp.com/send?phone=5565981227631&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
@@ -104,7 +104,9 @@ export default function home() {
                   </div>
                 </div>
               </div>
-              <Scene></Scene>
+              <div className="md:mt-44">
+                <Scene></Scene>
+              </div>
             </div>
           </div>
         </section>
