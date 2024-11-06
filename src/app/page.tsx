@@ -23,7 +23,7 @@ export default function home() {
                   </h1>
                   <p className="max-w-[600px] text-white md:text-xl">
                     Construímos soluções inovadoras que impulsionam seu negócio.
-                    Do conceito à escala, tudo com eficiência e segurança,
+                    do conceito à escala, tudo com eficiência e segurança,
                     oferecendo a flexibilidade que você precisa para se destacar
                     no mercado digital.
                   </p>
