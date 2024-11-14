@@ -19,7 +19,7 @@ export default function home() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2 mt-32 ml-12 md:mt-0">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none ">
-                    Criação de Sites
+                    Criação de Sites em Cuiabá
                   </h1>
                   <p className="max-w-[600px] text-white md:text-xl">
                     Construímos soluções inovadoras que impulsionam seu negócio.
