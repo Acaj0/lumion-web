@@ -15,6 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Lumen Desenvolvimento Web - Soluções Inovadoras em Cuiabá",
+  keywords: "Desenvolvimento de Sites Cuiabá, Criação de Sites em Cuiabá, Site Cuiabá, Sites Personalizados Cuiabá, Soluções Web Cuiabá, Lumen Desenvolvimento Web Cuiabá, Design de Sites Cuiabá, Sites Responsivos Cuiabá, Desenvolvedor Web Cuiabá, Agência de Criação de Sites Cuiabá",
   description:
     "Nossa empresa oferece soluções personalizadas em criação e desenvolvimento de sites. Impulsionamos negócios com inovação, eficiência e segurança.",
 };
