@@ -14,22 +14,22 @@ export default function home() {
           id="1"
           className="w-full py-12 md:py-24 lg:py-32 h-[700px] md:bg-[url('/fundo.png')] bg-[url('/cel.png')] bg-center md:bg-left-top bg-cover bg-scroll bg-no-repeat items-center flex "
         >
-          <div className="container px-4 md:px-6 bg rounded">
+          <div className="container flex justify-center px-4 md:px-6 bg rounded">
             <div className="flex gap-6 flex-col md:flex-row lg:gap-12 items-center justify-center">
               <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2 mt-32 ml-12 md:mt-0">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none ">
+                <div className="space-y-2 mt-32 p-6 md:ml-12 md:mt-0">
+                  <h1 className="text-3xl text-center  font-bold tracking-tighter sm:text-5xl xl:text-5xl/none ">
                     Criação de Sites em Cuiabá
                   </h1>
-                  <p className="max-w-[600px] text-white md:text-xl">
+                  <p className="max-w-[600px] text-justify text-white md:text-xl">
                     Construímos soluções inovadoras que impulsionam seu negócio.
                     do conceito à escala, tudo com eficiência e segurança,
                     oferecendo a flexibilidade que você precisa para se destacar
                     no mercado digital.
                   </p>
                 </div>
-                <div className="flex flex-row gap-10">
-                  <div className="flex flex-col gap-2 ml-12 min-[400px]:flex-row">
+                <div className="flex items-center justify-center flex-row md:gap-10">
+                  <div className="flex flex-col gap-2 md:ml-12 min-[400px]:flex-row">
                     <Link
                       target="_blank"
                       href="https://api.whatsapp.com/send?phone=5565981227631&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
@@ -52,7 +52,7 @@ export default function home() {
                       target="_blank"
                       prefetch={false}
                       href="https://www.instagram.com/lumen.web/"
-                      className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100 "
+                      className="transition ease-in-out delay-50 hidden md:flex  hover:-translate-y-1 hover:scale-110 duration-100 "
                     >
                       <svg
                         className="hover:fill-primary/90"
@@ -73,7 +73,7 @@ export default function home() {
                       target="_blank"
                       prefetch={false}
                       href="https://www.linkedin.com/company/lumenweb/"
-                      className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100"
+                      className="transition ease-in-out delay-50 hidden md:flex hover:-translate-y-1 hover:scale-110 duration-100"
                     >
                       <svg
                         className="hover:fill-primary/90"
@@ -89,7 +89,7 @@ export default function home() {
                       target="_blank"
                       prefetch={false}
                       href="https://www.facebook.com/people/Lumen-Desenvolvimento-Web/61565593634646/"
-                      className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-100"
+                      className="transition ease-in-out delay-50 hidden md:flex hover:-translate-y-1 hover:scale-110 duration-100"
                     >
                       <svg
                         className="hover:fill-primary/90"
@@ -104,7 +104,7 @@ export default function home() {
                   </div>
                 </div>
               </div>
-              <div className="md:mt-44">
+              <div className="md:mt-44 md:w-auto w-screen">
                 <Scene></Scene>
               </div>
             </div>
@@ -453,6 +453,137 @@ export default function home() {
                       atualizações, o atendimento é rápido e eficiente.
                       Recomendo para quem quer um site profissional e um suporte
                       de qualidade!!
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center space-y-4">
+                <div className="bg-white rounded-lg min-h-[355.84px] shadow-md p-6">
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,"
+                  >
+                    <div className="flex items-start gap-2">
+                      <div className="w-20 h-20 mr-4">
+                        <Image
+                          src="/shimo.png"
+                          height={100}
+                          width={100}
+                          className=""
+                          alt="Foto Guilherme Shimo"
+                        />
+                      </div>
+                      <div className="flex w-full justify-between">
+                        <div>
+                          <p className="text-lg font-bold">Guilherme Shimo</p>
+                          <p className="text-black/45 text-sm">08/11/2024 </p>
+                        </div>
+                        <Image
+                          width={50}
+                          height={20}
+                          src="/google.png"
+                          className="mt-1"
+                          alt="stars"
+                        />
+                      </div>
+                    </div>
+                    <Image
+                      width={200}
+                      height={30}
+                      src="/star.png"
+                      className="mt-1"
+                      alt="stars"
+                    />
+                    <p className="mt-4 text-muted-foreground">
+                      Usei a Lumen para desenvolver meu site para jogos,
+                      excelente empresa.
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center space-y-4">
+                <div className="bg-white rounded-lg min-h-80 shadow-md p-6">
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,"
+                  >
+                    <div className="flex items-start gap-2">
+                      <div className="w-20 h-20 mr-4">
+                        <Image
+                          src="/vini.png"
+                          height={100}
+                          width={100}
+                          className=""
+                          alt="Foto Vinicius Kreutz"
+                        />
+                      </div>
+                      <div className="flex w-full justify-between">
+                        <div>
+                          <p className="text-lg font-bold">Vinicius Kreutz</p>
+                          <p className="text-black/45 text-sm">07/11/2024 </p>
+                        </div>
+                        <Image
+                          width={50}
+                          height={20}
+                          src="/google.png"
+                          className="mt-1"
+                          alt="stars"
+                        />
+                      </div>
+                    </div>
+                    <Image
+                      width={200}
+                      height={30}
+                      src="/star.png"
+                      className="mt-1"
+                      alt="stars"
+                    />
+                    <p className="mt-4 text-muted-foreground">
+                      Muito bom, melhor site que ja vi.
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-col justify-center space-y-4">
+                <div className="bg-white rounded-lg min-h-80 shadow-md p-6">
+                  <a
+                    target="_blank"
+                    href="https://www.google.com/search?client=opera-gx&q=Lumen+Desenvolvimento+Web&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0xdadd90ab3e655c3:0x8924dfa94f53033c,1,,,,"
+                  >
+                    <div className="flex items-start gap-2">
+                      <div className="w-20 h-20 mr-4">
+                        <Image
+                          src="/paloma.png"
+                          height={100}
+                          width={100}
+                          className=""
+                          alt="Foto Paloma Ferreira"
+                        />
+                      </div>
+                      <div className="flex w-full justify-between">
+                        <div>
+                          <p className="text-lg font-bold">Paloma Ferreira</p>
+                          <p className="text-black/45 text-sm">07/11/2024</p>
+                        </div>
+                        <Image
+                          width={50}
+                          height={20}
+                          src="/google.png"
+                          className="mt-1"
+                          alt="stars"
+                        />
+                      </div>
+                    </div>
+                    <Image
+                      width={200}
+                      height={30}
+                      src="/star.png"
+                      className="mt-1"
+                      alt="stars"
+                    />
+                    <p className="mt-4 text-muted-foreground">
+                      Profissional super comprometido e entregas nos prazos
+                      combinados, sem dúvidas uma ótima escolha.
                     </p>
                   </a>
                 </div>
