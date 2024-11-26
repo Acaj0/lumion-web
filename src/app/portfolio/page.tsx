@@ -2,34 +2,35 @@ import Link from 'next/link'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import NavBar from '@/components/NavBar'
+import Image from 'next/image'
 
 const projects = [
   {
     id: 1,
     title: "A9 Logística",
     description: "Site e Blog para empresa de logística.",
-    image: "/a9main.png",
+    image: "/a9capa.jpg",
     link: "/portfolio/a9"
   },
   {
     id: 2,
     title: "Banda Digito Zero",
     description: "Site para banda de rock.",
-    image: "/digitomain.png",
+    image: "/digitozerocapa.jpg",
     link: "/portfolio/digitozero"
   },
   {
     id: 3,
     title: "Top Pro Painting",
     description: "Landing page para a empresa americana de pintura.",
-    image: "/toppromain.png",
+    image: "/topprocapa.jpg",
     link: "/portfolio/toppropaint"
   },
   {
     id: 4,
     title: "Duzzi Totaline Refrigeração",
     description: "Landing page para a empresa de Refrigeração do Mato-Grosso.",
-    image: "/duzzimain.png",
+    image: "/duzzicapa.jpg",
     link: "/portfolio/duzzi"
   }
 ]
@@ -54,9 +55,11 @@ export default function Portfolio() {
                 <CardTitle>{project.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
-                <img 
+                <Image 
                   src={project.image} 
                   alt={project.title} 
+                  width={1920}
+                  height={1080}
                   className="w-full h-48 object-cover rounded-md mb-4"
                 />
                 <p className="text-muted-foreground">{project.description}</p>
