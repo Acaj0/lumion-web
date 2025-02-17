@@ -303,6 +303,43 @@ export default function home() {
           </div>
         </section>
 
+        <section id="team" className="w-full pt-12 md:pt-24 lg:pt-32 bg-white">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Nossa Equipe</h2>
+                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Conheça os profissionais dedicados por trás da Lumen Desenvolvimento Web.
+                </p>
+              </div>
+            </div>
+            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
+              <div className="flex flex-col items-center space-y-4">
+                <Image
+                  src="/antonio.jpeg"
+                  alt="Foto do Membro 1"
+                  width={200}
+                  height={200}
+                  className="rounded-full"
+                />
+                <h3 className="text-xl font-bold">Antonio Carlos</h3>
+                <p className="text-muted-foreground">Desenvolvedor Web</p>
+              </div>
+              <div className="flex flex-col items-center space-y-4">
+                <Image
+                  src="/mateus.jpeg"
+                  alt="Foto do Membro 2"
+                  width={200}
+                  height={200}
+                  className="rounded-full"
+                />
+                <h3 className="text-xl font-bold">Mateus Gunsch</h3>
+                <p className="text-muted-foreground">Desenvolvedor Web</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="4" className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
