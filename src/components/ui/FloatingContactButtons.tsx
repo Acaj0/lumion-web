@@ -1,7 +1,7 @@
 'use client'
 import { Button } from "@/components/ui/button"
 
-export default function FloatingContactButtons({ phoneNumber = "+5565981227631" }) {
+export default function FloatingContactButtons({ phoneNumber = "+5571982471477" }) {
   const whatsappNumber = phoneNumber.replace(/[^0-9]/g, '')
 
   return (
