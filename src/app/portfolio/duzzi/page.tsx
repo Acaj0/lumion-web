@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import NavBar from "@/components/NavBar";
+import NavBar2 from "@/components/NavBar2";
 
 export default function LumenWebProject() {
   const [isSticky, setIsSticky] = useState(false);
@@ -25,14 +25,14 @@ export default function LumenWebProject() {
 
   return (
     <div className="min-h-screen bg-background">
-      <NavBar></NavBar>
-      <main className="container mx-auto px-4 py-12">
+      <NavBar2/>
+      <main className="container mx-auto mt-20 px-4 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <div
               ref={stickyRef}
               className={`lg:sticky ${
-                isSticky ? "lg:top-4" : "lg:top-12"
+                isSticky ? "lg:top-4" : "lg:top-20"
               } transition-all duration-300`}
             >
               <h1 className="text-4xl font-bold mb-6">

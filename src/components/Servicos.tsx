@@ -1,6 +1,5 @@
-import Image from "next/image"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Globe, Palette, Rocket, PenTool } from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Globe, Palette, Rocket, PenTool } from "lucide-react";
 
 export default function Servicos() {
   const services = [
@@ -12,7 +11,8 @@ export default function Servicos() {
     },
     {
       title: "Portfólios online",
-      description: "Para criativos e profissionais que desejam mostrar seu trabalho de forma visual e interativa.",
+      description:
+        "Para criativos e profissionais que desejam mostrar seu trabalho de forma visual e interativa.",
       icon: <Palette className="h-8 w-8 text-sky-700" />,
     },
     {
@@ -23,34 +23,33 @@ export default function Servicos() {
     },
     {
       title: "Blogs",
-      description: "Para compartilhar conteúdos, atrair tráfego orgânico e fortalecer sua presença online.",
+      description:
+        "Para compartilhar conteúdos, atrair tráfego orgânico e fortalecer sua presença online.",
       icon: <PenTool className="h-8 w-8 text-sky-700" />,
     },
-  ]
+  ];
 
   return (
-    <section className="w-full py-16 md:py-20 lg:py-24 bg-muted">
-      <div className="container px-4 md:px-6">
+    <section className="w-full py-16 bg-[url(/newfundo2.png)] bg-cover bg-no-repeat">
+      <div className="container  rounded-lg p-5 px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">O que nós podemos fazer por você</h2>
-          <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Na Lumen Desenvolvimento Web, ajudamos você a se destacar no ambiente digital por meio de estratégias
-            eficazes de SEO (Search Engine Optimization). Com a otimização adequada de sites e conteúdo, oferecemos às
-            empresas a oportunidade de melhorar sua visibilidade online e alcançar mais clientes.
+          <h2 className="text-3xl text-white font-bold tracking-tighter sm:text-5xl">
+            O que nós podemos fazer por você
+          </h2>
+          <p className="max-w-[900px] text-gray-200 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            Na Lumen Desenvolvimento Web, ajudamos você a se destacar no
+            ambiente digital por meio de estratégias eficazes de SEO (Search
+            Engine Optimization). Com a otimização adequada de sites e conteúdo,
+            oferecemos às empresas a oportunidade de melhorar sua visibilidade
+            online e alcançar mais clientes.
           </p>
         </div>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <div className="row-span-2 flex items-center justify-center">
-            <Image
-              src="/sitesparado.png"
-              width={400}
-              height={400}
-              alt="Lumen foto promocional"
-              className="rounded-lg object-cover"
-            />
-          </div>
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
           {services.map((service, index) => (
-            <Card key={index} className="transition-all duration-300 hover:shadow-lg hover:border-sky-700">
+            <Card
+              key={index}
+              className="transition-all duration-300 hover:shadow-lg hover:border-sky-700"
+            >
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   {service.icon}
@@ -83,6 +82,5 @@ export default function Servicos() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

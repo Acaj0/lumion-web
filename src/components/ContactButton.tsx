@@ -52,7 +52,7 @@ export default function ContactButton() {
         href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
         target="_blank"
         style={{ bottom: `${buttonPosition}px` }}
-        className={`${isVisible ? "" : "hidden"} fixed right-4 z-50 flex items-center justify-center rounded-full bg-sky-700 text-white transition-all duration-300 ease-in-out hover:bg-sky-600 ${
+        className={`${isVisible ? "" : "hidden"} fixed right-4 z-50 flex items-center justify-center rounded-full bg-sky-700 shadow text-white transition-all duration-300 ease-in-out hover:bg-sky-600 ${
             isExpanded ? "w-auto px-6 py-3" : "w-14 h-14"
         }`}
         >
