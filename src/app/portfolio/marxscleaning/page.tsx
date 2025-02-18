@@ -36,11 +36,11 @@ export default function LumenWebProject() {
                 } transition-all duration-300`}
                 >
                 <h1 className="text-4xl font-bold mb-6">
-                    Marx's Cleaning{" "}
+                    Marxs Cleaning{" "}
                 </h1>
                 <h2 className="text-2xl font-semibold mb-4">Sobre o Projeto</h2>
                 <p className="text-muted-foreground mb-6">
-                    A página da empresa Marx's Cleaning é um site institucional moderno e responsivo, dando foco para a qualidade dos serviços e feedbacks dos clientes. O site conta com uma seção de perguntas frequentes e área de serviço para auxiliar o usuário, assim como o contato diretamente pela página. As técnicas implementadas, voltadas para o mercado americano, destacam a qualidade dos serviços oferecidos pela empresa e proporcionam um visual profissional, se adaptando a qualquer tipo de dispositivo.
+                    A página da empresa Marxs Cleaning é um site institucional moderno e responsivo, dando foco para a qualidade dos serviços e feedbacks dos clientes. O site conta com uma seção de perguntas frequentes e área de serviço para auxiliar o usuário, assim como o contato diretamente pela página. As técnicas implementadas, voltadas para o mercado americano, destacam a qualidade dos serviços oferecidos pela empresa e proporcionam um visual profissional, se adaptando a qualquer tipo de dispositivo.
                 </p>
 
                 <h3 className="text-xl font-semibold mb-2">
