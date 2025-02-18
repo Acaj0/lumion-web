@@ -44,7 +44,7 @@ export default function Home() {
             if (el) sectionRefs.current[0] = el;
           }}
           id="1"
-          className="w-full py-12 md:py-24 lg:py-32 min-h-screen bg-[url(/newfundo.png)] flex items-center"
+          className="w-full py-12 md:py-24 lg:py-32 min-h-screen bg-[url(/newfundo.png)] bg-cover flex items-center"
         >
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col mt-20 md:mt-0 md:flex-row items-center justify-between gap-12">

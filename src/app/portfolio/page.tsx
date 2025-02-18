@@ -41,6 +41,28 @@ const projects = [
     image: "/duzzicapa.jpg",
     link: "/portfolio/duzzi",
   },
+  {
+    id: 5,
+    title: "Anjo Salva Brigada de Emergência",
+    description: "Landing page para a empresa de de atendimento de emergência em eventos.",
+    image: "/duzzicapa.jpg",
+    link: "/portfolio/anjosalva",
+  },
+  {
+    id: 6,
+    title: "Marx's Cleaning",
+    description: "Landing page para a empresa americana de limpeza.",
+    image: "/duzzicapa.jpg",
+    link: "/portfolio/marxscleaning",
+  },
+  // {
+  //   id: 7,
+  //   title: "Zafaloon Filmmaker",
+  //   description: "Portfólio profissional para videomaker em Cuiabá.",
+  //   image: "/duzzicapa.jpg",
+  //   link: "/portfolio/zafalon",
+  // },
+
 ];
 
 export default function Portfolio() {
