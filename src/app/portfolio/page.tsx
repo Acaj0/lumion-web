@@ -45,14 +45,14 @@ const projects = [
     id: 5,
     title: "Anjo Salva Brigada de Emergência",
     description: "Landing page para a empresa de de atendimento de emergência em eventos.",
-    image: "/duzzicapa.jpg",
+    image: "/5.jpg",
     link: "/portfolio/anjosalva",
   },
   {
     id: 6,
     title: "Marx's Cleaning",
     description: "Landing page para a empresa americana de limpeza.",
-    image: "/duzzicapa.jpg",
+    image: "/6.jpg",
     link: "/portfolio/marxscleaning",
   },
   // {
