@@ -41,7 +41,7 @@ export default function LumenWebProject() {
               <h2 className="text-2xl font-semibold mb-4">Sobre o Projeto</h2>
               <p className="text-muted-foreground mb-6">
                 Desenvolvemos um site institucional moderno e responsivo para a
-                Duzzi Totaline Climatização , uma empresa especializada em
+                Duzzi Totaline Climatização, uma empresa especializada em
                 Climatização e Refrigeração. O site apresenta os serviços da
                 empresa de forma atraente e fácil de navegar.
               </p>
