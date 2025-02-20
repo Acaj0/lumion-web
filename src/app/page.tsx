@@ -10,6 +10,8 @@ import ContactButton from "@/components/ContactButton";
 import Reviews from "@/components/reviews";
 import Team from "@/components/team";
 import Footer from "@/components/footer";
+import TechStack from "@/components/Tech-Stack";
+import PortfolioSection from "@/components/Portifolio-Section";
 
 export default function Home() {
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
@@ -50,7 +52,7 @@ export default function Home() {
             <div className="flex flex-col mt-20 md:mt-0 md:flex-row items-center justify-between gap-12">
               <div className="flex flex-col justify-center space-y-4 max-w-2xl">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
-                  Criação de Sites em Cuiabá
+                  Criação de Sites
                 </h1>
                 <p className="max-w-[600px] text-lg md:text-xl text-gray-200">
                   Construímos soluções inovadoras que impulsionam seu negócio.
@@ -135,7 +137,7 @@ export default function Home() {
             if (el) sectionRefs.current[1] = el;
           }}
           id="2"
-          className="w-full py-12 bg-white"
+          className="w-full pt-12 bg-white"
         >
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -241,17 +243,36 @@ export default function Home() {
         >
           <Servicos />
         </section>
-
+        <section
+          ref={(el) => {
+            if (el) sectionRefs.current[2] = el;
+          }}
+          id="Stack"
+          className="w-full"
+        >
+          {" "}
+          <TechStack />
+        </section>
+        <section
+          ref={(el) => {
+            if (el) sectionRefs.current[2] = el;
+          }}
+          id="Stack"
+          className="w-full"
+        >
+          {" "}
+          <PortfolioSection />
+        </section>
         <section
           ref={(el) => {
             if (el) sectionRefs.current[4] = el;
           }}
-          id="4"
+          id="4" className="w-full py-12 "
         >
           <Reviews />
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
