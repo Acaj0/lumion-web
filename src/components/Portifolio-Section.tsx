@@ -21,7 +21,7 @@ const featuredProjects = [
     id: 2,
     title: "Zafaloon Filmmaker",
     description: "Portifolio responsivo com um painel para alteração dos dados em tempo real",
-    image: "/zafalooncapa.jpg",
+    image: "/zafalooncapa.png",
     tags: ["React", "Tailwind", "PostgreSQL"],
     link: "/", 
   },
