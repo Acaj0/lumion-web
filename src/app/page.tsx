@@ -51,7 +51,7 @@ export default function Home() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col mt-20 md:mt-0 md:flex-row items-center justify-between gap-12">
               <div className="flex flex-col justify-center space-y-4 max-w-2xl">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
+                <h1 className="text-5xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
                   Criação de Sites
                 </h1>
                 <p className="max-w-[600px] text-lg md:text-xl text-gray-200">
