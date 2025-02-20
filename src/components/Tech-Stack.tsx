@@ -8,7 +8,7 @@ export default function TechStack() {
     <section className="py-12 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-5xl h-16 font-bold mb-2 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+          <h2 className="text-5xl h-24 lg:h-16 font-bold mb-2 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
             Tecnologia de Ponta
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -132,7 +132,7 @@ export default function TechStack() {
           >
             <div className="h-16 w-16 mx-auto mb-4">
               <Image
-                src="/vercel.svg"
+                src="/vercel.png"
                 alt="Vercel Logo"
                 width={64}
                 height={64}
