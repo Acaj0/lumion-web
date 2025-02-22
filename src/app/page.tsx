@@ -16,6 +16,7 @@ import PortfolioSection from "@/components/Portifolio-Section";
 export default function Home() {
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
+  //teste de commit
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
