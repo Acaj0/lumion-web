@@ -61,14 +61,15 @@ const projects = [
     link: "/portfolio/digitozero",
     tags: ["Next.js", "TypeScript", "Tailwind"],
   },
+  {
+    id: 7,
+    title: "Zafaloon Filmmaker",
+    description: "Portifolio responsivo com um painel para alteração dos dados em tempo real",
+    image: "/Zafalooncapa.jpg",
+    link: "/portfolio/zafalon",
+    tags: ["Next.js", "TypeScript", "Tailwind"],
+  },
 ]
- // {
-  //   id: 7,
-  //   title: "Zafaloon Filmmaker",
-  //   description: "Portifolio responsivo com um painel para alteração dos dados em tempo real",
-  //   image: "/duzzicapa.jpg",
-  //   link: "/portfolio/zafalon",
-  // },
 
 export default function Portfolio() {
   return (
