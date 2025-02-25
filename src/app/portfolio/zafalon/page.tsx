@@ -112,12 +112,17 @@ export default function LumenWebProject() {
 
             <div className="space-y-6 mt-6 lg:mt-0">
                 <img
-                src="/duzzipc.jpg"
+                src="/zafalonpc.jpg"
                 alt="duzzi navegacao pc"
                 className="w-full rounded-lg shadow-lg outline outline-1"
                 />
                 <img
-                src="/duzzimob.jpg"
+                src="/zafalondashboard.jpg"
+                alt="duzzi navegacao pc"
+                className="w-full rounded-lg shadow-lg outline outline-1"
+                />
+                <img
+                src="/zafalonmob2.png"
                 alt="duzzi navegacao mobile"
                 className="w-full rounded-lg shadow-md outline outline-1"
                 />

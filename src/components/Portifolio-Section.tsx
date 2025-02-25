@@ -23,7 +23,7 @@ const featuredProjects = [
     description: "Portifolio responsivo com um painel para alteração dos dados em tempo real",
     image: "/zafalooncapa.png",
     tags: ["React", "Tailwind", "PostgreSQL"],
-    link: "/", 
+    link: "/portfolio/zafalon", 
   },
   {
     id: 3,
