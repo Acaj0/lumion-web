@@ -69,6 +69,14 @@ const projects = [
     link: "/portfolio/zafalon",
     tags: ["Next.js", "TypeScript", "Tailwind"],
   },
+  {
+    id: 8,
+    title: "PeresNet",
+    description: "Site institucional responsivo para empresa de TI de Cuiabá-MT",
+    image: "/peresnetcapa.jpg",
+    link: "/portfolio/peresnet",
+    tags: ["Next.js", "TypeScript", "Tailwind"],
+  },
 ]
 
 export default function Portfolio() {
