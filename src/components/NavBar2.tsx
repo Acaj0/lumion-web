@@ -93,7 +93,7 @@ export default function NavBar2() {
         </button>
         <Link
           target="_blank"
-          href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
+          href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Lumen%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento."
           className="text-lg font-medium hover:underline underline-offset-4 transition-all duration-500 ease-in-out text-black"
           prefetch={false}
         >
@@ -139,7 +139,7 @@ export default function NavBar2() {
             </button>
             <Link
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1,%20Gostaria%20de%20Fazer%20um%20or%C3%A7amento%20para%20meu%20site!"
+              href="https://api.whatsapp.com/send?phone=5571982471477&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Lumen%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento."
               className="text-black text-lg font-medium py-2 hover:underline underline-offset-4"
               onClick={() => setIsMenuOpen(false)}
               prefetch={false}
@@ -152,4 +152,3 @@ export default function NavBar2() {
     </header>
   )
 }
-
